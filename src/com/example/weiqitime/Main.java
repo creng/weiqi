@@ -98,5 +98,8 @@ public class Main extends Activity {
 		Intent intent = new Intent(this, GameBoardSmall.class);
 		startActivity(intent);
 	}
-
+	public void goToBoard(View view) {
+		Intent intent = new Intent(this, GameBoard.class);
+		startActivity(intent);
+	}
 }

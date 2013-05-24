@@ -1,6 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/RelativeLayout1"
+    android:id="@+id/activity_game_board"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:columnCount="9"
@@ -18,7 +18,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:src="@drawable/goboard13x13" />
-
+<!-- 
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="15dp"
@@ -79,7 +79,7 @@
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton2"
+        android:id="@+id/ImageButtonB13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton03"
@@ -87,20 +87,20 @@
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton3"
+        android:id="@+id/ImageButtonC13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_alignLeft="@+id/ImageButton03"
-        android:layout_alignTop="@+id/ImageButton2"
+        android:layout_alignTop="@+id/ImageButtonB13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton1"
+        android:id="@+id/ImageButtonA13"
         android:layout_width="15dp"
         android:layout_height="20dp"
-        android:layout_alignTop="@+id/ImageButton2"
+        android:layout_alignTop="@+id/ImageButtonB13"
         android:layout_marginRight="5dp"
-        android:layout_toLeftOf="@+id/ImageButton2"
+        android:layout_toLeftOf="@+id/ImageButtonB13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
@@ -108,7 +108,7 @@
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton01"
-        android:layout_alignLeft="@+id/ImageButton1"
+        android:layout_alignLeft="@+id/ImageButtonA13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
@@ -228,7 +228,7 @@
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_alignTop="@+id/ImageButton18"
-        android:layout_toRightOf="@+id/ImageButton1"
+        android:layout_toRightOf="@+id/ImageButtonA13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
@@ -336,101 +336,101 @@
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton4"
+        android:id="@+id/ImageButtonD13"
         android:layout_width="15dp"
         android:layout_height="20dp"
-        android:layout_alignTop="@+id/ImageButton3"
+        android:layout_alignTop="@+id/ImageButtonC13"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/ImageButton3"
+        android:layout_toRightOf="@+id/ImageButtonC13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton41"
+        android:id="@+id/ImageButtonE13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton03"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/ImageButton4"
+        android:layout_toRightOf="@+id/ImageButtonD13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton40"
-        android:layout_width="15dp"
-        android:layout_height="20dp"
-        android:layout_above="@+id/ImageButton03"
-        android:layout_toRightOf="@+id/ImageButton41"
-        android:layout_marginLeft="5dp"
-        android:src="@android:drawable/radiobutton_off_background" />
-
-    <ImageButton
-        android:id="@+id/ImageButton42"
+        android:id="@+id/ImageButtonF13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton03"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/ImageButton40"
+        android:layout_toRightOf="@+id/ImageButtonE13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton43"
+        android:id="@+id/ImageButtonG13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton03"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/ImageButton42"
+        android:layout_toRightOf="@+id/ImageButtonF13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton44"
+        android:id="@+id/ImageButtonH13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton03"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/ImageButton43"
+        android:layout_toRightOf="@+id/ImageButtonG13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton45"
+        android:id="@+id/ImageButtonJ13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton03"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/ImageButton44"
+        android:layout_toRightOf="@+id/ImageButtonH13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton46"
+        android:id="@+id/ImageButtonK13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton03"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/ImageButton45"
+        android:layout_toRightOf="@+id/ImageButtonJ13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton47"
+        android:id="@+id/ImageButtonL13"
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton03"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/ImageButton46"
+        android:layout_toRightOf="@+id/ImageButtonK13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
-        android:id="@+id/ImageButton48"
+        android:id="@+id/ImageButtonM13"
         android:layout_width="15dp"
         android:layout_height="20dp"
-        android:layout_alignTop="@+id/ImageButton47"
-        android:layout_toRightOf="@+id/ImageButton47"
+        android:layout_above="@+id/ImageButton03"
         android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButtonL13"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButtonN13"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButtonM13"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButtonM13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
         android:id="@+id/ImageButton49"
         android:layout_width="15dp"
         android:layout_height="20dp"
-        android:layout_alignLeft="@+id/ImageButton4"
-        android:layout_below="@+id/ImageButton4"
+        android:layout_alignLeft="@+id/ImageButtonD13"
+        android:layout_below="@+id/ImageButtonD13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
@@ -446,7 +446,7 @@
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton13"
-        android:layout_toLeftOf="@+id/ImageButton41"
+        android:layout_toLeftOf="@+id/ImageButtonE13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
@@ -454,7 +454,7 @@
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton50"
-        android:layout_toLeftOf="@+id/ImageButton40"
+        android:layout_toLeftOf="@+id/ImageButtonF13"
         android:src="@android:drawable/radiobutton_off_background" />
 
     <ImageButton
@@ -462,7 +462,7 @@
         android:layout_width="15dp"
         android:layout_height="20dp"
         android:layout_above="@+id/ImageButton50"
-        android:layout_toLeftOf="@+id/ImageButton42"
+        android:layout_toLeftOf="@+id/ImageButtonG13"
         android:src="@android:drawable/radiobutton_off_background" />
-
+-->
 </RelativeLayout>
