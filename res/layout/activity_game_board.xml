@@ -49,10 +49,420 @@
         android:id="@+id/ImageButton03"
         android:layout_width="15dp"
         android:layout_height="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="33dp"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginLeft="5dp"
         android:layout_toRightOf="@+id/imageButton1"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton04"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton02"
+        android:layout_alignLeft="@+id/ImageButton03"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton05"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton04"
+        android:layout_below="@+id/ImageButton04"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton06"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton02"
+        android:layout_below="@+id/ImageButton02"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton07"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton08"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton03"
+        android:layout_alignTop="@+id/ImageButton07"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton09"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton07"
+        android:layout_toLeftOf="@+id/ImageButton07"
+        android:layout_marginRight="5dp"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton10"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton01"
+        android:layout_alignLeft="@+id/ImageButton09"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton16"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton02"
+        android:layout_alignLeft="@+id/ImageButton10"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton15"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton06"
+        android:layout_alignLeft="@+id/ImageButton16"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton14"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton15"
+        android:layout_alignTop="@+id/ImageButton06"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton13"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton05"
+        android:layout_alignTop="@+id/ImageButton06"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton12"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton14"
+        android:layout_below="@+id/ImageButton14"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton11"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton12"
+        android:layout_toLeftOf="@+id/ImageButton03"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton25"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton13"
+        android:layout_alignTop="@+id/ImageButton11"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton24"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton12"
+        android:layout_below="@+id/ImageButton12"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton23"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton24"
+        android:layout_toLeftOf="@+id/ImageButton03"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton22"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton25"
+        android:layout_alignTop="@+id/ImageButton23"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton21"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton24"
+        android:layout_below="@+id/ImageButton24"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton20"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton21"
+        android:layout_toLeftOf="@+id/ImageButton03"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton19"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton22"
+        android:layout_alignTop="@+id/ImageButton20"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton18"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton21"
+        android:layout_below="@+id/ImageButton21"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton17"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton18"
+        android:layout_toRightOf="@+id/ImageButton09"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton31"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton19"
+        android:layout_alignTop="@+id/ImageButton17"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton30"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton18"
+        android:layout_below="@+id/ImageButton18"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton29"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton30"
+        android:layout_toLeftOf="@+id/ImageButton03"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton28"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton31"
+        android:layout_alignTop="@+id/ImageButton29"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton27"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton30"
+        android:layout_below="@+id/ImageButton30"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton26"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton27"
+        android:layout_toLeftOf="@+id/ImageButton03"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton39"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton28"
+        android:layout_alignTop="@+id/ImageButton26"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton38"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton27"
+        android:layout_below="@+id/ImageButton27"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton37"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton38"
+        android:layout_below="@+id/ImageButton38"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton36"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton37"
+        android:layout_toLeftOf="@+id/ImageButton03"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton35"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton37"
+        android:layout_toLeftOf="@+id/ImageButton03"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton34"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton35"
+        android:layout_alignLeft="@+id/ImageButton39"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton33"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton34"
+        android:layout_alignTop="@+id/ImageButton35"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton32"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton08"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton08"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton41"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton32"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton40"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_toRightOf="@+id/ImageButton41"
+        android:layout_marginLeft="5dp"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton42"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton40"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton43"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton42"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton44"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton43"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton45"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton44"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton46"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton45"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton47"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton03"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton46"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton48"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ImageButton47"
+        android:layout_toRightOf="@+id/ImageButton47"
+        android:layout_marginLeft="5dp"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton49"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/ImageButton32"
+        android:layout_below="@+id/ImageButton32"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton50"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton05"
+        android:layout_alignLeft="@+id/ImageButton49"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton51"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton13"
+        android:layout_toLeftOf="@+id/ImageButton41"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton52"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton50"
+        android:layout_toLeftOf="@+id/ImageButton40"
+        android:src="@android:drawable/radiobutton_off_background" />
+
+    <ImageButton
+        android:id="@+id/ImageButton53"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/ImageButton50"
+        android:layout_toLeftOf="@+id/ImageButton42"
         android:src="@android:drawable/radiobutton_off_background" />
 
 </RelativeLayout>

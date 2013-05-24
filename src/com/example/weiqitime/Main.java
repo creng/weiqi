@@ -1,21 +1,46 @@
 package com.example.weiqitime;
 
-
-
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.View.OnTouchListener;
+import android.widget.Button;
 
 public class Main extends Activity {
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) { 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
+	
+	Button button = (Button) findViewById(R.id.button9);
+	OnTouchListener touch;
+	
+	touch = new OnTouchListener(){
+		@SuppressWarnings("unused")
+		public boolean onClick(View v, MotionEvent e){
+			
+			return false;
+		}
+		@Override
+		public boolean onTouch(View v, MotionEvent e) {
+			
+			View textview = findViewById(R.id.textView1);
+	    	textview.setVisibility(View.VISIBLE);
+			
+			return false;
+		}
+		
+	};
+	
+	button.setOnTouchListener(touch);
 	}
+	
+	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
