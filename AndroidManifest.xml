@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weiqitime"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.weiqitime.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.Friends"
+            android:label="@string/title_activity_friends" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.CurrentGames"
+            android:label="@string/title_activity_current_games" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.GameHistory"
+            android:label="@string/title_activity_game_history" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.MakeNewGame"
+            android:label="@string/title_activity_make_new_game" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.GameBoard"
+            android:label="@string/title_activity_game_board" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.Leaderboard"
+            android:label="@string/title_activity_leaderboard" >
+        </activity>
+        <activity
+            android:name="com.example.weiqitime.GameBoardSmall"
+            android:label="@string/title_activity_game_board_small" >
+        </activity>
+    </application>
+
+</manifest>
