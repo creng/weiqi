@@ -1,14 +1,18 @@
 package com.example.weiqitime;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 public class Main extends Activity {
 	
@@ -16,29 +20,31 @@ public class Main extends Activity {
 	protected void onCreate(Bundle savedInstanceState) { 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-	
-	Button button = (Button) findViewById(R.id.button9);
-	OnTouchListener touch;
-	
-	touch = new OnTouchListener(){
-		@SuppressWarnings("unused")
-		public boolean onClick(View v, MotionEvent e){
-			
-			return false;
-		}
-		@Override
-		public boolean onTouch(View v, MotionEvent e) {
-			
-			View textview = findViewById(R.id.textView1);
-	    	textview.setVisibility(View.VISIBLE);
-			
-			return false;
-		}
 		
-	};
-	
-	button.setOnTouchListener(touch);
+		RelativeLayout layout = (RelativeLayout)findViewById(R.id.main);
+		OnTouchListener touch;
+		
+		touch = new OnTouchListener(){
+			@SuppressWarnings("unused")
+			public boolean onClick(View v, MotionEvent e){
+				
+				return false;
+			}
+			@TargetApi(Build.VERSION_CODES.HONEYCOMB)
+			@Override
+			public boolean onTouch(View v, MotionEvent e) {
+				
+				View textview = findViewById(R.id.textView1);
+		    	textview.setVisibility(View.VISIBLE);
+				
+				return false;
+			}
+			
+		};
+		
+		layout.setOnTouchListener(touch);
 	}
+
 	
 	
 
@@ -86,6 +92,10 @@ public class Main extends Activity {
 	
 	public void goToFriends(View view) {
 		Intent intent = new Intent(this, Friends.class);
+		startActivity(intent);
+	}
+	public void goToSmallBoard(View view) {
+		Intent intent = new Intent(this, GameBoardSmall.class);
 		startActivity(intent);
 	}
 

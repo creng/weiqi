@@ -1,5 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_board_small"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -10,10 +11,47 @@
     
     <ImageView
         android:id="@+id/nineBoard"
-        android:layout_width="800dp"
-        android:layout_height="300dp"
+        android:layout_width="287dp"
+        android:layout_height="287dp"
         android:src="@drawable/goboard9x9" />
+    
+    <ImageView
+        android:id="@+id/piece1"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/blackpiece" />
+    <ImageView
+        android:id="@+id/piece2"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/blackpiece" />
+    <ImageView
+        android:id="@+id/piece3"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/blackpiece" />
+    <ImageView
+        android:id="@+id/piece4"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/blackpiece" />
+    <ImageView
+        android:id="@+id/piece5"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="258dp"
+        android:src="@drawable/blackpiece" />
 
+<!-- 
     <Button
         android:id="@+id/button01"
         android:layout_width="31dp"
@@ -162,7 +200,7 @@
         android:layout_marginRight="0dp"
         android:text="Button" />
     
-    
+    -->
     
     
     

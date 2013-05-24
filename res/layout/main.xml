@@ -1,5 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -84,6 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/button8"
         android:layout_toRightOf="@+id/button1"
+        android:onClick="goToSmallBoard"
         android:text="@string/press" />
 
     <TextView
@@ -94,6 +96,7 @@
         android:layout_alignBaseline="@+id/button8"
         android:layout_alignBottom="@+id/button8"
         android:layout_alignRight="@+id/button5"
+        android:onClick="goToSmallBoard"
         android:text="@string/magic" />
 
 </RelativeLayout>
