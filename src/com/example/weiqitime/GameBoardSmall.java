@@ -76,6 +76,7 @@ public class GameBoardSmall extends Activity {
 								layout2.removeView(image);
 								params.leftMargin = (int) xValue;
 								params.topMargin = (int) yValue;
+								layout2.addView(image, params);
 								Log.v("hey2", String.valueOf(image.getX()));
 								Log.v("hey2", String.valueOf(image.getTranslationX()));
 							}
